@@ -3,30 +3,40 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Host+Grotesk:ital,wght@0,300..800;1,300..800&family=Londrina+Sketch&family=Qwitcher+Grypen:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Host+Grotesk:ital,wght@0,300..800;1,300..800&family=Londrina+Sketch&family=Qwitcher+Grypen:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="style.css" />
     <title>Weather Search</title>
   </head>
   <body>
     <div class="weather-app">
       <header>
-        <form>
-          <input type="search" placeholder="Enter a city..." required />
-          <input type="submit" value="search" />
+        <form class="search-form">
+          <input
+            type="search"
+            placeholder="Enter a city..."
+            required
+            class="search-form-input"
+          />
+          <input type="submit" value="search" class="search-form-button" />
         </form>
       </header>
       <main>
-        <div>
-          <h1>Cape Town</h1>
-          <p>
-            Tuesday 13:04, sunny
-            <br />
-            Humidity: 91%, Wind: 6.69km/h
-          </p>
+        <div class="weather-app-data">
+          <div>
+            <h1 class="weather-city">Cape Town</h1>
+            <p class="weather-details">
+              Tuesday 13:04, sunny
+              <br />
+              Humidity: 91%, Wind: 6.69km/h
+            </p>
+          </div>
+          <div class="weather-temperature">☀30°C</div>
         </div>
-        <div>☀30°C</div>
       </main>
 
       <footer>
