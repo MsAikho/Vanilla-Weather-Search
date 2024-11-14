@@ -67,14 +67,15 @@ header {
 }
 
 .weather-icon {
-  font-size: 44px;
-  margin-top: 2px;
+  width: 88px;
+  height: 88px;
 }
 
 .weather-temperature {
   font-size: 70px;
   font-weight: bold;
   margin-left: 10px;
+  line-height: 88px;
 }
 
 .weather-units {
